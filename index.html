@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akili Timber</title>
+  <link rel="stylesheet" href="styles.css">
+</head> 
+<body>
+  <header>
+    <img src="Images/Akili Timber Logo(New).jpg" alt="Akili Timber Logo" class="logo">
+    <div id ="hamburger" onClick= "myFunction()">
+      <svg width="28" height="28" viewBox="0 0 36 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g filter="url(#filter0_i_0_1)">
+        <rect x="1" y="1" width="34" height="36" rx="6" fill="#D8D1C4"/>
+        </g>
+        <rect x="0.5" y="0.5" width="35" height="37" rx="6.5" stroke="black"/>
+        <rect x="7" y="8" width="21" height="6" fill="#967E4C"/>
+        <rect x="7" y="16" width="21" height="7" fill="#967E4C"/>
+        <rect x="7" y="25" width="21" height="6" fill="#967E4C"/>
+        <defs>
+        <filter id="filter0_i_0_1" x="0" y="0" width="36" height="42" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+        <feOffset dy="4"/>
+        <feGaussianBlur stdDeviation="2"/>
+        <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+        <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+        <feBlend mode="normal" in2="shape" result="effect1_innerShadow_0_1"/>
+        </filter>
+        </defs>
+        </svg>
+        
+    </div>  
+<div id = "navlisID" class= "navlist closed"> 
+       <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="product.html">Product</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+
+    <div class="contact-info">
+      <svg width="25" height="19" viewBox="0 0 35 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path id="Vector" d="M3.04046 1.34451L1.42209 4.60571C-4.10601 16.3621 10.0386 39.9682 23.8686 46.9412L28.4113 49.1955C29.6391 49.8048 31.094 49.648 31.5751 48.6785L34.7328 42.007C35.1702 41.1256 34.4589 39.784 33.2311 39.1747L23.2509 34.0023L16.2841 35.7078C13.0919 34.1237 4.79302 18.4715 5.85121 16.0308L13.5025 15.1043L16.7124 8.01937C17.1498 7.13796 16.4385 5.79635 15.2107 5.18707L6.20427 0.827468C4.85372 0.157261 3.52159 0.374964 3.04046 1.34451Z" fill="#967E4C"/>
+      </svg>        
+      +27 84 532 5147
+    </div>
+    
+  </header>
+  
+  <main>
+    <h1>Crafting Timber with Care, Exceeding Expectations: Welcome to AKILI TIMBER!</h1>
+  </main>
+  
+  <script>
+    function myFunction() {
+      if (document.getElementById("navlisID").classList.contains("closed")) {
+        document.getElementById('navlisID').classList.remove('closed');
+        console.log("Shift back to Page");
+      } else {
+        document.getElementById('navlisID').classList.add('closed');
+        console.log("Shift to far left");
+      }
+    }
+  </script>
+</body>
+
+</html>
+
+
+
+
+
+
