@@ -64,7 +64,8 @@ document.getElementById('contactForm').addEventListener('submit', function (even
   // Check if the last name is empty
   if (lastName.value.trim() === '') {
     setErrorStyles(lastName, 'Please enter your last name');
-  } else {
+  } else 
+  {
     removeErrorStyles(lastName);
   }
  
@@ -72,7 +73,8 @@ document.getElementById('contactForm').addEventListener('submit', function (even
   var lastNameCheck = /^[A-Za-z]+$/;
   if (!lastNameCheck.test(lastName.value)) {
     setErrorStyles(lastName, 'Last name must contain only alphabetic characters.');
-  } else {
+  } else 
+  {
     removeErrorStyles(lastName);
   }
 
@@ -80,7 +82,8 @@ document.getElementById('contactForm').addEventListener('submit', function (even
   var emailCheck = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   if (!emailCheck.test(email.value)) {
     setErrorStyles(email, 'Please enter a valid email address.');
-  } else {
+  } else 
+  {
     removeErrorStyles(email);
   }
 
@@ -88,14 +91,16 @@ document.getElementById('contactForm').addEventListener('submit', function (even
   var contactNumberCheck = /^\d+$/;
   if (!contactNumberCheck.test(contactNumber.value)) {
     setErrorStyles(contactNumber, 'Contact number must contain only numbers');
-  } else {
+  } else 
+  {
     removeErrorStyles(contactNumber);
   }
 
   // Check if the request field is empty
   if (request.value.trim() === '') {
     setErrorStyles(request, 'Please describe your request');
-  } else {
+  } else 
+  {
     removeErrorStyles(request);
   }
 
