@@ -140,7 +140,26 @@ li {
     margin-right: 6px;
 
 }
+.contactUs {
+  padding: 10px; 
 }
+
+.inputBox input,
+.inputBox textarea {
+  font-size: 1em; 
+}
+
+
+.inputBox,
+.inputBox span,
+.inputBox input,
+.inputBox textarea {
+  margin: 5px 0;
+  padding: 5px;
+}
+}
+
+
 /* Tablets */
 @media only screen and (max-width: 768px) {
   .navlist {
@@ -151,9 +170,21 @@ li {
     float: none;
 }
 
+  .contactUs {
+    padding: 20px; 
+  }
 
+  .formBox .row50 {
+    flex-direction: column;
+  }
 
+  .formBox .row100 .inputBox {
+    width: 100%; 
+  }
 }
+
+
+
 main {
   display: flex;
   justify-content: center;
@@ -262,41 +293,7 @@ main h1{
   font-size: 12px;
   margin-top: 5px;
 }
-/* Tablets */
-@media only screen and (max-width: 768px) {
-  .contactUs {
-    padding: 20px; /* Adjust padding for smaller screens */
-  }
 
-  .formBox .row50 {
-    flex-direction: column; /* Stack columns on top of each other */
-  }
-
-  .formBox .row100 .inputBox {
-    width: 100%; /* Full width for single column */
-  }
-}
-
-/* Mobile Phones */
-@media only screen and (max-width: 468px) {
-  .contactUs {
-    padding: 10px; /* Adjust padding for smaller screens */
-  }
-
-  .inputBox input,
-  .inputBox textarea {
-    font-size: 1em; /* Decrease font size for small screens */
-  }
-
-  /* Adjust margins and paddings for better spacing */
-  .inputBox,
-  .inputBox span,
-  .inputBox input,
-  .inputBox textarea {
-    margin: 5px 0;
-    padding: 5px;
-  }
-}
 
 
 
